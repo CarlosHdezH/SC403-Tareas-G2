@@ -5,11 +5,54 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Resultados de la busqueda con Table</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" href="CSS/busqueda.css"/>
+                
     </head>
+    
     <body>
-        <div>TODO write content</div>
+        
+        <h1>Resultados de la busqueda con Table</h1>
+        
+        <table summary="Tabla con los resultados de la busqueda">
+            <caption>Resultado de la Busqueda</caption>
+            <tr> 
+                <th abbr="Imagen del Doctor" scope="col">Imagen</th>
+                <th abbr="Informacion del Doctor" scope="col">Informacion</th>
+            </tr>
+            
+            <tr>
+                <td>
+                    <img class="myImage" src="images/Pelon.JPG" alt="Imagen del ginecologo" />
+                </td>
+                
+                <td>
+                    <h4><a href="Ver mas informacion sobre el Doctor">El misterioso</a>                   
+                    </h4> 
+                    <p>
+                        <a href="#" title="Agendar Cit">Agendar</a>
+                    </p>
+                </td>
+            </tr>
+            
+            <tr>
+                <td> <img class="myImage" src="images/FedeAsuma.JPG" alt="Oncologo"/> </td>
+                <td>
+                    <h4><a href="#" title="Ver mas informacion del Oncologo">Especialidad en Oncologia</a></h4> 
+                    <p><a href="#" title="Agendar Cita">Agendar</a></p>
+                </td>
+            </tr>
+            
+            <tr>
+                <td><img class="myImage" src="images/Dr Goku.JPG" alt="Imagen del Dr Goku"/></td>
+                <td>
+                    <h4><a href='#' title="Ver mas informacion del Doctor">Dr Goku - Se lo que quieras ser</a></h4>
+                    <p><a href="#" title="Agendar cita con el papu">Agendar Cita</a></p>
+                </td>
+            </tr>
+        </table>
+        
     </body>
 </html>
