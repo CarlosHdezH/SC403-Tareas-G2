@@ -12,7 +12,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     font-family: Centuary Gothic;
 }
 header{
-    background-image: url("../images/Lol.jpg");
+    background-image: url("../static.images/Lol.png");
     height: 100vh;
     background-size: cover;
     background-position: center;
