@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns="https://www.w3c.org/1999/xhtml"
+      xmlns:th="https://www.thymeleaf.org">
+    <head th:replace="layout/plantilla :: head"><title>Proyecto</title></head>
+    <body>
+        <div id="error">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://cdn.pixabay.com/photo/2014/04/02/10/26/attention-303861_1280.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Error 403</h5>
+                    <p class="card-text">El acceso a esta pagina esta prohibido</p>
+                    <a th:href="@{/}" class="btn btn-danger">Volver</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

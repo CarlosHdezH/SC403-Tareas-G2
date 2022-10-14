@@ -19,7 +19,6 @@
                     </thead>
                     <tbody>
                         <tr th:each="item : ${menus}">
-                            <th th:text="${item.tipo}"></th>
                             <td th:text="${item.platillo.nombre}"></td>
                             <td th:text="${item.platillo.descripcion}"></td>
                             <td th:text="${item.platillo.precio}"></td>
