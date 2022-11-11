@@ -4,7 +4,6 @@ Utilizaremos este repositorio para subir todas las tareas que realicemos en grup
 
 ## Integrantes:
 
-- Carlos Hernández Hernández <@CarlosHdezH>
 - José Jiménez Monge <@>
 - Marco Santos Artavia <@>
 - Santiago Sibaja Urdaneta <@>
